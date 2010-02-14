@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iterations type="array">
+  <iteration>
+    <id type="integer">74</id>
+    <number type="integer">74</number>
+    <start type="datetime">2010/02/08 00:00:00 EST</start>
+    <finish type="datetime">2010/02/15 00:00:00 EST</finish>
+    <stories type="array">
+      <story>
+        <id type="integer">2090894</id>
+        <story_type>bug</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2090894</url>
+        <current_state>delivered</current_state>
+        <description></description>
+        <name>tab selection does not show properly until refreshed</name>
+        <requested_by>Vidhan Rana</requested_by>
+        <owned_by>Brandon Keepers</owned_by>
+        <created_at type="datetime">2010/01/05 10:03:31 EST</created_at>
+        <updated_at type="datetime">2010/02/04 17:05:40 EST</updated_at>
+        <notes type="array">
+          <note>
+            <id type="integer">1114968</id>
+            <text>I think this was only happening when going in to edit a company.  I've changed how the edit form is pulled up (and also made it snappier), but let me know if you can find any other ways to break the tabs.</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/02/02 15:53:56 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1127604</id>
+            <text>This problem isn't fixed yet. It just happened to me. </text>
+            <author>Vidhan Rana</author>
+            <noted_at type="datetime">2010/02/04 16:26:29 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1127685</id>
+            <text>Can you recall how you were able to make it happen?</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/02/04 16:38:17 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1127691</id>
+            <text>Happened for this particular company: still happening for me - http://walter.whittakerassociates.com/companies/13753 (IDEX Corporation within Lee &amp; Associates List)</text>
+            <author>Vidhan Rana</author>
+            <noted_at type="datetime">2010/02/04 16:39:52 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1127713</id>
+            <text>Here is what I am noticing: If the blank space appear below the fax number everything works fine .. if the bland space isn't there than the Edit button does't work and the tab's aren't selected either</text>
+            <author>Vidhan Rana</author>
+            <noted_at type="datetime">2010/02/04 16:42:44 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1127805</id>
+            <text>hmm, tabs and edit don't seem to be working on any company for me.</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/02/04 17:01:43 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1127822</id>
+            <text>I'm not sure what was wrong, but I re-deployed the latest version and it's working again.</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/02/04 17:05:35 EST</noted_at>
+          </note>
+        </notes>
+      </story>
+      <story>
+        <id type="integer">2465251</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2465251</url>
+        <estimate type="integer">2</estimate>
+        <current_state>delivered</current_state>
+        <description></description>
+        <name>Each company should only have one location</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <owned_by>Brandon Keepers</owned_by>
+        <created_at type="datetime">2010/02/11 08:15:54 EST</created_at>
+        <updated_at type="datetime">2010/02/11 08:16:03 EST</updated_at>
+      </story>
+      <story>
+        <id type="integer">2334720</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2334720</url>
+        <estimate type="integer">2</estimate>
+        <current_state>delivered</current_state>
+        <description>User can search for companies by name or keywords in the company overview or product description</description>
+        <name>A user can do a full text search for companies</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <owned_by>Brandon Keepers</owned_by>
+        <created_at type="datetime">2010/01/29 11:57:31 EST</created_at>
+        <updated_at type="datetime">2010/02/12 10:16:53 EST</updated_at>
+        <labels>search</labels>
+      </story>
+      <story>
+        <id type="integer">2337703</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2337703</url>
+        <estimate type="integer">2</estimate>
+        <current_state>delivered</current_state>
+        <description></description>
+        <name>An employee can add companies from a search result to an existing list</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <owned_by>Brandon Keepers</owned_by>
+        <created_at type="datetime">2010/01/29 16:32:44 EST</created_at>
+        <updated_at type="datetime">2010/02/12 10:16:59 EST</updated_at>
+        <labels>internal,search</labels>
+      </story>
+      <story>
+        <id type="integer">2337707</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2337707</url>
+        <estimate type="integer">2</estimate>
+        <current_state>delivered</current_state>
+        <description></description>
+        <name>An employee can add companies from a search result to a new list</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <owned_by>Brandon Keepers</owned_by>
+        <created_at type="datetime">2010/01/29 16:33:11 EST</created_at>
+        <updated_at type="datetime">2010/02/12 10:16:59 EST</updated_at>
+        <labels>internal,search</labels>
+      </story>
+      <story>
+        <id type="integer">2091044</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2091044</url>
+        <estimate type="integer">0</estimate>
+        <current_state>delivered</current_state>
+        <description></description>
+        <name>Show product description on list page instead of NAICS description</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <owned_by>Brandon Keepers</owned_by>
+        <created_at type="datetime">2010/01/05 10:08:35 EST</created_at>
+        <updated_at type="datetime">2010/02/12 13:26:15 EST</updated_at>
+        <notes type="array">
+          <note>
+            <id type="integer">1035923</id>
+            <text>Vidhan: &quot;If there is already a product description there, then do not override it from hoovers&quot;</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/01/14 10:33:31 EST</noted_at>
+          </note>
+        </notes>
+      </story>
+      <story>
+        <id type="integer">2090890</id>
+        <story_type>bug</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2090890</url>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>selecting a primary contact sometimes does not work</name>
+        <requested_by>Vidhan Rana</requested_by>
+        <created_at type="datetime">2010/01/05 10:02:52 EST</created_at>
+        <updated_at type="datetime">2010/01/14 09:52:07 EST</updated_at>
+        <notes type="array">
+          <note>
+            <id type="integer">1035732</id>
+            <text>Have you noticed any pattern as to when this doesn't work?</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/01/14 09:52:36 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1035761</id>
+            <text>It usually happens when we first enter a person. If we select the person as primary as we add him/her .. it doesn't usually work. we have to save the contact, refresh the page (or come back to the page later) and then select the contact as primary. </text>
+            <author>Vidhan Rana</author>
+            <noted_at type="datetime">2010/01/14 09:58:35 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1078047</id>
+            <text>OK, I'm striking out big time today.  I can't duplicate this either?  If I remember right, you weren't able to duplicate it when we met over gotomeeting.</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/01/25 12:10:30 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1078416</id>
+            <text>It did happen to me again this morning. I think it happens when you edit the company for the first time in a list. Usually happens when I edit information on the Overview page first and then change information on the People page.</text>
+            <author>Vidhan Rana</author>
+            <noted_at type="datetime">2010/01/25 13:18:07 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1114998</id>
+            <text>I'm still not able to duplicate this. Can you give me a call (616-566-2867) as soon as you see this happen again so I can look through the logs and see if I can find any more info?</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/02/02 16:01:23 EST</noted_at>
+          </note>
+        </notes>
+      </story>
+      <story>
+        <id type="integer">2337695</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2337695</url>
+        <estimate type="integer">2</estimate>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>A client can only view companies in their lists in the search results</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <created_at type="datetime">2010/01/29 16:31:47 EST</created_at>
+        <updated_at type="datetime">2010/02/08 16:50:48 EST</updated_at>
+        <labels>search</labels>
+      </story>
+      <story>
+        <id type="integer">2090859</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2090859</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>Add more information to events</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <created_at type="datetime">2010/01/05 09:59:27 EST</created_at>
+        <updated_at type="datetime">2010/01/14 10:48:36 EST</updated_at>
+        <notes type="array">
+          <note>
+            <id type="integer">1025481</id>
+            <text>What type of information are you wanting to capture?</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/01/12 10:04:17 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1025881</id>
+            <text>Each event may have to additional magnitude factor - for example if a company receives a contract - would be great if we could add how much the contract was worth so that we can sort by new contract by size .. similarly if a company get new financing .. would be great to be able to add how much the financing was worth etc. We might want to dicuss this during our meeting. 
+
+Before we even get to this step, I think it is necessary to work on the advanced search feature that allows us to search for companies by events. </text>
+            <author>Vidhan Rana</author>
+            <noted_at type="datetime">2010/01/12 11:35:10 EST</noted_at>
+          </note>
+        </notes>
+      </story>
+      <story>
+        <id type="integer">2090975</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2090975</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>sort list by total employes</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <created_at type="datetime">2010/01/05 10:06:45 EST</created_at>
+        <updated_at type="datetime">2010/01/14 11:04:46 EST</updated_at>
+      </story>
+      <story>
+        <id type="integer">2091050</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2091050</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>A user can see who changed the status of a lead and when</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <created_at type="datetime">2010/01/05 10:09:05 EST</created_at>
+        <updated_at type="datetime">2010/01/05 10:09:07 EST</updated_at>
+      </story>
+      <story>
+        <id type="integer">2190554</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2190554</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>Change the title of the tabs Notes vs. Contacts</name>
+        <requested_by>Vidhan Rana</requested_by>
+        <owned_by>Brandon Keepers</owned_by>
+        <created_at type="datetime">2010/01/14 11:07:19 EST</created_at>
+        <updated_at type="datetime">2010/01/14 11:15:48 EST</updated_at>
+        <labels>internal</labels>
+      </story>
+      <story>
+        <id type="integer">2091078</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2091078</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>A user can add bios for people</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <created_at type="datetime">2010/01/05 10:12:35 EST</created_at>
+        <updated_at type="datetime">2010/01/14 11:15:42 EST</updated_at>
+        <notes type="array">
+          <note>
+            <id type="integer">1025502</id>
+            <text>I'm assuming this would just be a dedicated text field for the user's bio?</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/01/12 10:07:52 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1025866</id>
+            <text>Yes, exactly - but this is not such a high priority item. </text>
+            <author>Vidhan Rana</author>
+            <noted_at type="datetime">2010/01/12 11:31:48 EST</noted_at>
+          </note>
+          <note>
+            <id type="integer">1036109</id>
+            <text>How about we connect the people to their LinkedIn</text>
+            <author>Vidhan Rana</author>
+            <noted_at type="datetime">2010/01/14 11:10:33 EST</noted_at>
+          </note>
+        </notes>
+      </story>
+      <story>
+        <id type="integer">2090878</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2090878</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>Sort a list by date last updated</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <created_at type="datetime">2010/01/05 10:01:32 EST</created_at>
+        <updated_at type="datetime">2010/01/14 11:15:40 EST</updated_at>
+      </story>
+      <story>
+        <id type="integer">2091083</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2091083</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>A user can export a company with just the primary contact</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <created_at type="datetime">2010/01/05 10:12:59 EST</created_at>
+        <updated_at type="datetime">2010/01/05 10:13:01 EST</updated_at>
+        <notes type="array">
+          <note>
+            <id type="integer">1025497</id>
+            <text>Are you looking to have an export similar to what you currently have, but with only the primary contact?  Or would this be an option on the existing exports to include the primary contact?</text>
+            <author>Brandon Keepers</author>
+            <noted_at type="datetime">2010/01/12 10:07:18 EST</noted_at>
+          </note>
+        </notes>
+      </story>
+      <story>
+        <id type="integer">234712</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/234712</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description>An employee can search for additional companies and add them to the current list</description>
+        <name>An employee can add additional companies to a list</name>
+        <requested_by>Daniel Morrison</requested_by>
+        <created_at type="datetime">2008/06/05 05:38:00 EDT</created_at>
+        <updated_at type="datetime">2010/01/14 11:04:56 EST</updated_at>
+      </story>
+      <story>
+        <id type="integer">2091071</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2091071</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>track which pages a client viewed and for how long</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <created_at type="datetime">2010/01/05 10:11:52 EST</created_at>
+        <updated_at type="datetime">2010/01/14 11:05:08 EST</updated_at>
+      </story>
+      <story>
+        <id type="integer">2091054</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2091054</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description>Reason is added as a note</description>
+        <name>A user is asked to provide a reason for accepting or rejecting a lead</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <created_at type="datetime">2010/01/05 10:09:47 EST</created_at>
+        <updated_at type="datetime">2010/01/14 11:08:44 EST</updated_at>
+      </story>
+      <story>
+        <id type="integer">2091085</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/2091085</url>
+        <estimate type="integer">-1</estimate>
+        <current_state>unstarted</current_state>
+        <description></description>
+        <name>A user can chose what to include in an export</name>
+        <requested_by>Brandon Keepers</requested_by>
+        <created_at type="datetime">2010/01/05 10:13:18 EST</created_at>
+        <updated_at type="datetime">2010/02/02 15:04:16 EST</updated_at>
+      </story>
+    </stories>
+  </iteration>
+</iterations>

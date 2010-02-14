@@ -10,7 +10,9 @@ begin
     gem.email = "brandon@collectiveidea.com"
     gem.homepage = "http://github.com/collectiveidea/pivotal_tracker"
     gem.authors = ["Brandon Keepers"]
+    gem.add_dependency "activeresource"
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_development_dependency "fakeweb"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
@@ -22,6 +24,7 @@ require 'spec/rake/spectask'
 Spec::Rake::SpecTask.new(:spec) do |spec|
   spec.libs << 'lib' << 'spec'
   spec.spec_files = FileList['spec/**/*_spec.rb']
+  spec.ruby_opts << '-rubygems'
 end
 
 Spec::Rake::SpecTask.new(:rcov) do |spec|
