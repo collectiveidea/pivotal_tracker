@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stories type="array" count="0" total="0" filter="'label:'needs feedback' type:chore">
+  <story>
+    <id type="integer">1</id>
+    <story_type>chore</story_type>
+    <url>http://www.pivotaltracker.com/story/show/1</url>
+    <estimate type="integer">-1</estimate>
+    <current_state>started</current_state>
+    <description>Now, Scotty!</description>
+    <name>More power to shields</name>
+    <requested_by>James Kirk</requested_by>
+    <owned_by>Montgomery Scott</owned_by>
+    <created_at type="datetime">2008/12/10 00:00:00 UTC</created_at>
+    <accepted_at type="datetime">2008/12/10 00:00:00 UTC</accepted_at>
+    <labels>label 1,label 2,label 3</labels>
+  </story>
+</stories>

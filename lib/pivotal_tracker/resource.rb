@@ -1,6 +1,10 @@
 module PivotalTracker
+
+  SITE_BASE = "https://www.pivotaltracker.com/services/v3/"
+
   class Resource < ActiveResource::Base
-    Resource.site = "https://www.pivotaltracker.com/services/v3"
+
+    Resource.site = SITE_BASE
 
     class << self
       # If headers are not defined in a given subclass, then obtain headers from the superclass.
