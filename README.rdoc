@@ -1,6 +1,27 @@
 = pivotal_tracker
 
-Description goes here.
+A Ruby library for talking with http://www.pivotaltracker.com/
+
+== Example
+
+  require 'pivotal_tracker'
+
+  # See your profile page on https://pivotaltracker.com for this
+  PivotalTracker(:token => 'YOUR-API-TOKEN')
+
+  PivotalTracker::Project.find(:all).each do |project|
+
+    puts project.name
+
+    project.iterations.each do |iteration|
+      puts "  [#{iteration.number}] #{iteration.start} - #{iteration.finish}"
+      iteration.stories.each do |story|
+        puts "   [#{story.story_type}] #{story.name}"
+      end
+    end
+
+  end
+
 
 == Note on Patches/Pull Requests
  
