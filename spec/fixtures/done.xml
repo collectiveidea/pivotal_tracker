@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iterations type="array">
+  <iteration>
+    <id type="integer">1</id>
+    <number type="integer">1</number>
+    <start type="datetime">2009/08/30 12:00:00 UTC</start>
+    <finish type="datetime">2009/09/06 12:00:00 UTC</finish>
+    <stories type="array">
+      <story>
+        <id type="integer">1291250</id>
+        <story_type>chore</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291250</url>
+        <current_state>accepted</current_state>
+        <description>We need 2 machines set up</description>
+        <name>Setup development environment</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/08/31 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/01 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/01 00:00:00 UTC</accepted_at>
+        <notes type="array">
+          <note>
+            <id type="integer">646353</id>
+            <text>What's our budget for the machines?</text>
+            <author>Malcolm Locke</author>
+            <noted_at type="datetime">2009/09/16 11:58:44 UTC</noted_at>
+          </note>
+        </notes>
+      </story>
+      <story>
+        <id type="integer">1291251</id>
+        <story_type>chore</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291251</url>
+        <current_state>accepted</current_state>
+        <description>Should be accessible from outside the network, with basic auth</description>
+        <name>Setup demo server</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/08/31 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/01 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/01 00:00:00 UTC</accepted_at>
+        <labels>deployment</labels>
+      </story>
+      <story>
+        <id type="integer">1291252</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291252</url>
+        <estimate type="integer">2</estimate>
+        <current_state>accepted</current_state>
+        <description>Admin should be a special user type. We can create the first admin user directly in the DB, but let's encrypt the password.</description>
+        <name>Admin should be able to login</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/08/31 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/01 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/01 00:00:00 UTC</accepted_at>
+        <labels>admin</labels>
+      </story>
+      <story>
+        <id type="integer">1291253</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291253</url>
+        <estimate type="integer">1</estimate>
+        <current_state>accepted</current_state>
+        <description>Product information includes title, description, price, SKU.</description>
+        <name>Admin should be able to create new product</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/08/31 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/01 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/01 00:00:00 UTC</accepted_at>
+        <labels>admin</labels>
+      </story>
+      <story>
+        <id type="integer">1291254</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291254</url>
+        <estimate type="integer">2</estimate>
+        <current_state>accepted</current_state>
+        <description></description>
+        <name>Admin should be able to upload product photo</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/08/31 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/01 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/01 00:00:00 UTC</accepted_at>
+        <labels>admin</labels>
+      </story>
+    </stories>
+  </iteration>
+  <iteration>
+    <id type="integer">2</id>
+    <number type="integer">2</number>
+    <start type="datetime">2009/09/06 12:00:00 UTC</start>
+    <finish type="datetime">2009/09/13 12:00:00 UTC</finish>
+    <stories type="array">
+      <story>
+        <id type="integer">1291255</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291255</url>
+        <estimate type="integer">3</estimate>
+        <current_state>accepted</current_state>
+        <description></description>
+        <name>Admin should be able to upload multiple product photos and mark one as the primary</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/08/31 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/08 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/08 00:00:00 UTC</accepted_at>
+        <labels>admin</labels>
+      </story>
+      <story>
+        <id type="integer">1291256</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291256</url>
+        <estimate type="integer">2</estimate>
+        <current_state>accepted</current_state>
+        <description></description>
+        <name>Shopper should see list of products, with primary photo as thumbnail</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/08/31 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/08 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/08 00:00:00 UTC</accepted_at>
+        <labels>shopping</labels>
+      </story>
+      <story>
+        <id type="integer">1291257</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291257</url>
+        <estimate type="integer">1</estimate>
+        <current_state>accepted</current_state>
+        <description></description>
+        <name>Product browsing should be paginated, with 10 products per page</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/08/31 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/08 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/08 00:00:00 UTC</accepted_at>
+        <labels>shopping</labels>
+      </story>
+      <story>
+        <id type="integer">1291258</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291258</url>
+        <estimate type="integer">2</estimate>
+        <current_state>accepted</current_state>
+        <description></description>
+        <name>Make product browsing pagination AJAXy</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/08/31 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/08 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/08 00:00:00 UTC</accepted_at>
+        <labels>shopping,usability</labels>
+        <notes type="array">
+          <note>
+            <id type="integer">646354</id>
+            <text>Product list page to page transition should not reload browser page</text>
+            <author>Malcolm Locke</author>
+            <noted_at type="datetime">2009/09/16 11:58:44 UTC</noted_at>
+          </note>
+        </notes>
+      </story>
+      <story>
+        <id type="integer">1291259</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291259</url>
+        <estimate type="integer">3</estimate>
+        <current_state>accepted</current_state>
+        <description></description>
+        <name>Admin should be able to import multiple new products from CSV file</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/08/31 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/08 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/08 00:00:00 UTC</accepted_at>
+        <labels>admin</labels>
+      </story>
+    </stories>
+  </iteration>
+  <iteration>
+    <id type="integer">3</id>
+    <number type="integer">3</number>
+    <start type="datetime">2009/09/13 12:00:00 UTC</start>
+    <finish type="datetime">2009/09/20 12:00:00 UTC</finish>
+    <stories type="array">
+      <story>
+        <id type="integer">1291260</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291260</url>
+        <estimate type="integer">1</estimate>
+        <current_state>accepted</current_state>
+        <description></description>
+        <name>Shopper should be able to click on a product, and see all product details, including photos</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/09/07 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/16 00:00:00 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/16 00:00:00 UTC</accepted_at>
+        <labels>shopping</labels>
+      </story>
+      <story>
+        <id type="integer">1291261</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291261</url>
+        <estimate type="integer">1</estimate>
+        <current_state>accepted</current_state>
+        <description></description>
+        <name>Shopper should be able to add product to shopping cart</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/09/07 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/16 11:58:44 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/16 11:58:44 UTC</accepted_at>
+        <labels>shopping,cart</labels>
+      </story>
+      <story>
+        <id type="integer">1291262</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291262</url>
+        <estimate type="integer">2</estimate>
+        <current_state>accepted</current_state>
+        <description>Cart icon in top right corner, with a number indicating how many items in cart</description>
+        <name>Shopper should be able to view contents of shopping cart</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <owned_by>Malcolm Locke</owned_by>
+        <created_at type="datetime">2009/09/07 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/16 12:06:21 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/16 12:06:21 UTC</accepted_at>
+        <labels>shopping,cart</labels>
+      </story>
+      <story>
+        <id type="integer">1291266</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291266</url>
+        <estimate type="integer">1</estimate>
+        <current_state>accepted</current_state>
+        <description>Prompt for email address and personalized message, send email with product details and message</description>
+        <name>Shopper should be able to recommend a product to a friend</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <owned_by>Malcolm Locke</owned_by>
+        <created_at type="datetime">2009/09/07 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/16 12:06:45 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/16 12:06:45 UTC</accepted_at>
+        <labels>shopping</labels>
+      </story>
+      <story>
+        <id type="integer">1291263</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291263</url>
+        <estimate type="integer">1</estimate>
+        <current_state>accepted</current_state>
+        <description></description>
+        <name>Shopper should be able to remove product from shopping cart</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/09/07 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/16 12:14:07 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/16 12:14:07 UTC</accepted_at>
+        <labels>shopping,cart</labels>
+      </story>
+      <story>
+        <id type="integer">1291264</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291264</url>
+        <estimate type="integer">1</estimate>
+        <current_state>accepted</current_state>
+        <description></description>
+        <name>Cart manipulation should be AJAXy</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <created_at type="datetime">2009/09/07 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/16 12:14:24 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/16 12:14:24 UTC</accepted_at>
+        <labels>shopping,cart</labels>
+      </story>
+    </stories>
+  </iteration>
+  <iteration>
+    <id type="integer">4</id>
+    <number type="integer">4</number>
+    <start type="datetime">2009/09/20 12:00:00 UTC</start>
+    <finish type="datetime">2009/09/27 12:00:00 UTC</finish>
+    <stories type="array">
+      <story>
+        <id type="integer">1291268</id>
+        <story_type>feature</story_type>
+        <url>http://www.pivotaltracker.com/story/show/1291268</url>
+        <estimate type="integer">3</estimate>
+        <current_state>accepted</current_state>
+        <description>One search field, search should look through product name, description, and SKU</description>
+        <name>Shopper should be able to search for product</name>
+        <requested_by>Malcolm Locke</requested_by>
+        <owned_by>Malcolm Locke</owned_by>
+        <created_at type="datetime">2009/09/07 00:00:00 UTC</created_at>
+        <updated_at type="datetime">2009/09/23 22:05:54 UTC</updated_at>
+        <accepted_at type="datetime">2009/09/23 22:05:54 UTC</accepted_at>
+        <labels>shopping,search</labels>
+      </story>
+    </stories>
+  </iteration>
+</iterations>

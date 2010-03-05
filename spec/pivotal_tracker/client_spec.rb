@@ -3,12 +3,15 @@ require 'spec_helper'
 describe PivotalTracker::Client do
   before do
     @token = 'foo'
+    @auth_headers = {'Authorization' => 'Basic Zm9vOmJhcg==', 'Accept' => 'application/xml'}
+    @headers = {'Accept' => 'application/xml', 'X-TrackerToken' => @token}
+    ActiveResource::HttpMock.respond_to do |mock|
+      mock.get "/services/v3/tokens/active", @auth_headers, fixture('tokens.xml')
+      mock.get "/services/v3/projects.xml", @headers, fixture('projects.xml')
+    end
   end
   
   it "should be able to look up token" do
-    FakeWeb.register_uri(:get, "https://foo:bar@www.pivotaltracker.com/services/v3/tokens/active",
-      :body => fixture('tokens.xml'))
-    
     PivotalTracker(:username => 'foo', :password => 'bar').token.should == "c93f12c71bec27843c1d84b3bdd547f3"
   end
   
@@ -21,9 +24,6 @@ describe PivotalTracker::Client do
   
   context "projects" do
     it "should return list of projects" do
-      FakeWeb.register_uri(:get, "https://www.pivotaltracker.com/services/v3/projects.xml", 
-        :body => fixture('projects.xml'))
-      
       projects = PivotalTracker(:token => @token).projects
       projects.should == PivotalTracker::Project
       projects.find(:all).size.should == 2

@@ -3,9 +3,7 @@ $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'pivotal_tracker'
 require 'spec'
 require 'spec/autorun'
-require 'fakeweb'
-
-FakeWeb.allow_net_connect = false
+require 'active_resource/http_mock'
 
 Spec::Runner.configure do |config|
   
