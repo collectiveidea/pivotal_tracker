@@ -12,7 +12,6 @@ begin
     gem.authors = ["Brandon Keepers"]
     gem.add_dependency "activeresource"
     gem.add_development_dependency "rspec", ">= 1.2.9"
-    gem.add_development_dependency "fakeweb"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
