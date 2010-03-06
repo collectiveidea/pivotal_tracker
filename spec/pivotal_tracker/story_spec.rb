@@ -21,7 +21,6 @@ describe PivotalTracker::Story do
 
   it "should get the project" do
     @story.project = @project
-    project = @story.project
     @story.project.should be_kind_of(PivotalTracker::Project)
   end
 end
