@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe PivotalTracker::Project do
+describe PivotalTracker::Story do
   before do
     @pivotal = PivotalTracker(:token => 'foo')
     @project = PivotalTracker::Project.new(:id => 1)
