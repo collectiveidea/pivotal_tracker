@@ -15,6 +15,8 @@ describe PivotalTracker::Project do
         @headers, fixture('done.xml')
       mock.get "/services/v3/projects/1/stories.xml", @headers,
         fixture('stories.xml')
+      mock.get "/services/v3/projects/1/stories/1.xml", @headers,
+        fixture('story.xml')
       mock.get "/services/v3/projects/1/stories.xml?filter=type%3A+bug",
         @headers, fixture('bugs.xml')
       mock.get "/services/v3/projects/1/stories.xml?filter=type%3A+chore",
@@ -48,6 +50,11 @@ describe PivotalTracker::Project do
     it "should return all stories" do
       @project.stories.should be_kind_of(Array)
       @project.stories.size.should == 3
+    end
+  end
+  context "story" do
+    it "should return a story by id" do
+      @project.story(1).should be_kind_of(PivotalTracker::Story)
     end
   end
   context "bugs" do

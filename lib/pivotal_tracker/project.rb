@@ -29,5 +29,9 @@ module PivotalTracker
       params.merge!(opt_params)
       Story.find(scope, :params => params)
     end
+
+    def story(id)
+      stories(id, {:project_id => self.id})
+    end
   end
 end
