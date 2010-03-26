@@ -8,6 +8,8 @@ A Ruby library for talking with http://www.pivotaltracker.com/
 
   # See your profile page on https://pivotaltracker.com for this
   PivotalTracker(:token => 'YOUR-API-TOKEN')
+  # ... or
+  PivotalTracker(:username => 'youremail@domain.com', :password => 'yourpass')
 
   PivotalTracker::Project.find(:all).each do |project|
 
