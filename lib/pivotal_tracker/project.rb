@@ -31,7 +31,7 @@ module PivotalTracker
     end
 
     def story(id)
-      stories(id, {:project_id => self.id})
+      stories(id)
     end
   end
 end
