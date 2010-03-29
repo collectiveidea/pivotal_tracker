@@ -6,6 +6,12 @@ describe PivotalTracker::Iteration do
     @project = PivotalTracker::Project.new(:id => 1)
     @iteration = PivotalTracker::Iteration.new(:id => 1)
     @iteration.project = @project
+    @headers = {'Accept' => 'application/xml', 'X-TrackerToken' => 'foo'}
+    ActiveResource::HttpMock.respond_to do |mock|
+      mock.get "/services/v3/projects/1.xml", @headers, fixture('project.xml')
+      mock.get "/services/v3/projects/1/iterations.xml?group=current", @headers,
+        fixture('iterations.xml')
+    end
   end
 
   it "should set the project" do
